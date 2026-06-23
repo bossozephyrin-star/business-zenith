@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: arial, sans-serif;
+  background-color: #0d1b3e;
+  color: #f8f6f1;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 6%;
+  background-color: #0a1530;
+  border-bottom: 2px solid #c9a84c;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #c9a84c;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+nav ul a {
+  color: #f8f6f1;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+nav ul a:hover {
+  color: #c9a84c;
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 6%;
+}
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.hero h1 span {
+  color: #c9a84c;
+}
+.hero p {
+  font-size: 1.1rem;
+  color: rgba(248, 246, 241, 0.7);
+  margin-bottom: 2rem;
+}
+.hero a {
+  background-color: #c9a84c;
+  color: #0d1b3e;
+  padding: 0.9rem 2.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.hero a:hover {
+  background-color: #e8c96a;
+}
+#services {
+  padding: 5rem 6%;
+}
+#services h2 {
+  font-size: 2rem;
+  color: #c9a84c;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.card {
+  background-color: #111e40;
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+.card h3 {
+  font-size: 0.9rem;
+  color: #c9a84c;
+  margin-bottom: 0.8rem;
+}
+.card p {
+  font-size: 0.9rem;
+  color: rgba(248, 246, 241, 0.65);
+  line-height: 1.7;
+}
+.card.hover {
+  border-color: #c9a84c;
+}
+#contact {
+  padding: 5rem 6%;
+  text-align: center;
+  background-color: #0a1530;
+}
+#contact h2 {
+  font-size: 2rem;
+  color: #c9a84c;
+  margin-bottom: 1rem;
+}
+
+#contact p {
+  color: rgba(248, 246, 241, 0.65);
+  margin-bottom: 2rem;
+}
+
+#contact a {
+  display: inline-block;
+  padding: 0.9rem 2.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 0.5rem;
+}
+
+#contact a:first-of-type {
+  background-color: #c9a84c;
+  color: #0d1b3e;
+}
+
+#contact a:last-of-type {
+  border: 2px solid #c9a84c;
+  color: #c9a84c;
+}
+
+#contact a:hover {
+  background-color: #e8c96a;
+  color: #0d1b3e;
+}
+
+footer {
+  padding: 2rem 6%;
+  text-align: center;
+  border-top: 1px solid rgba(201, 168, 76, 0.2);
+  font-size: 0.8rem;
+  color: rgba(248, 246, 241, 0.35);
+}
